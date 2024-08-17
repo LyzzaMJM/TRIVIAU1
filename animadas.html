@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/animadas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Preguntas sobre series animadas</title>
+</head>
+
+<body>
+    <div class="presentacion">
+        <div class="marca">
+            <h1 class="titulo_marca">SeriMania Trivia</h1>
+        </div>
+        <div class="container">
+            <h2 class="tserie" id="serie">Nombre de la serie</h2>
+            <img id="imagen_pregunta" src="RECURSOS/simpson.png" alt="Imagen Simpson" style="width: 300px; height: auto;" loading="lazy" >
+
+            <br>
+
+            <h3 id="dificultad" class="dificultad">Nivel de dificultad: </h3>
+            <div id="pregunta-container" class="animadas">
+                <h4 id="pregunta">¿Cómo se llamaba Ladybug?</h4>
+
+                <div class="opciones">
+                    <button id="op1">Opción 1</button>
+                    <button id="op2">Opción 2</button>
+                    <button id="op3">Opción 3</button>
+                    <button id="op4">Opción 4</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="avance">
+                <progress id="barra_progreso" max="100" value="10" style="width: 100%;"></progress>
+            </div>
+
+        </div>
+    </div>
+    <script src="JS/animadas.js"></script>
+</body>
+
+</html>
